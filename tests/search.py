@@ -2,8 +2,8 @@ import pytest
 from page_objects import products, topnav
 
 
-def test_search_existing_products(sb):
-    criteria = 'office chair mesh'
+@pytest.mark.parametrize('criteria', ['office chair mesh', 'desk lamps steel'])
+def test_search_existing_products(sb, criteria):
     topnav.search(sb, criteria)
     products.assert_at_prod_list(sb)
     sb.assert_text(criteria, 'h1')
