@@ -1,8 +1,15 @@
 prod_list_url = 'lighting/lamps/desk-lamps'
+
+header_search_results = 'Search Results for'
+
 prod_links_css = "#sbprodgrid a.productbox"
 prod_title_css = '[data-qa="text-pdp-product-title"]'
 prod_option_css = 'a.js-visual-option'
 add_to_cart_button_css = 'input[data-data-qa="button-add-to-cart"]'
+
+
+def assert_at_prod_list(sb):
+    sb.assert_text(header_search_results)
 
 
 def get_all_products(sb):
