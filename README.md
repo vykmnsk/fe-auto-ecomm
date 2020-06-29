@@ -33,7 +33,7 @@ Set SuT environment
 
 Quick Demo (in Chrome)
 
-	pytest tests/search.py --demo
+	pytest tests/search.py --reuse-session --demo
 
 Run all (in Chrome)
 
