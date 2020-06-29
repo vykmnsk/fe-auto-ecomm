@@ -1,6 +1,7 @@
 Test Cases
 ==========
 
+
 Search existing products
 ------------------------
 
@@ -12,3 +13,12 @@ Search existing products
 1. Verify at least one product is displayed
 
 
+Add a product to Shopping Cart
+------------------------------
+
+1. Given a list of products is displayed
+1. Note current number of items in the Shopping Cart
+1. Click on any product
+1. Observe Product Details page is displayed
+1. Click [Add to Cart]
+1. Verify number of Shopping Cart items has incremented
