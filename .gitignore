@@ -1,0 +1,16 @@
+# Byte-compiled / optimized files
+__pycache__/
+.pytest_cache/
+.python-version
+Pipfile.lock
+
+# pyenv
+venv/
+venv.bak/
+
+# logs
+archived_logs/
+latest_logs/
+*.log
+
+
