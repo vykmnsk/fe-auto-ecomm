@@ -22,3 +22,20 @@ Add a product to Shopping Cart
 1. Observe Product Details page is displayed
 1. Click [Add to Cart]
 1. Verify number of Shopping Cart items has incremented
+
+
+Checkout journey
+----------------
+
+1. Given the Shopping Cart is not empty
+1. Open Shopping Cart page
+1. Choose No Purchase Protection
+1. Proceed to Checkout
+1. Verify Email section is displayed
+1. Enter valid email
+1. Proceed
+1. Verify Shipping section is displayed
+1. Enter mandatory details 
+1. Proceed
+1. Verify Billing section is displayed
+
